@@ -1,0 +1,52 @@
+#video-fundo {
+    position: fixed; 
+    left: 0;
+    width: 100vw;    
+    height: 100vh;  
+    object-fit: cover;
+    z-index: -1; 
+    top:0;   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+
+#principal {
+    background-color: rgba(255, 255, 255, 0.5); 
+    width: 1500px;
+    height: 4000px;
+    margin: 0 auto; 
+}
+
+#inner-header { 
+    background-color: #2C5F34;
+    background: linear-gradient(to bottom,  #2C5F34, #479553);
+    margin: 0;
+    margin: 0;
+    padding: 20px;
+    color: antiquewhite;
+    /*-------*/
+    display: flex;
+    flex-direction: row;
+}
+
+#inner-header img { 
+    width: 315px;
+    height: 300px;
+    border-radius: 230px;
+}
+
+#inner-header div { 
+    display: flex;
+    flex-direction: column;
+}
+
+nav a { 
+    margin: 180px;
+}
