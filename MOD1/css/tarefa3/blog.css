@@ -22,6 +22,7 @@ body {
     width: 1500px;
     height: 4000px;
     margin: 0 auto; 
+
 }
 
 #inner-header { 
@@ -34,6 +35,8 @@ body {
     /*-------*/
     display: flex;
     flex-direction: row;
+    height: 380px;
+    width: 1460px;
 }
 
 #inner-header img { 
@@ -48,5 +51,31 @@ body {
 }
 
 nav a { 
-    margin: 180px;
+    margin: 130px;
+}
+
+nav button {
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#main-conteudo { 
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    height: 4999px;
+}
+
+#main-conteudo hr { 
+    color: black;
+
+}
+
+#conteudo {
+    width: 1000px;
+}
+
+#sumario {
+    width: 500px;
 }
