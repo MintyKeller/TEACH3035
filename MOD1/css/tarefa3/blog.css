@@ -20,7 +20,7 @@ body {
 #principal {
     background-color: rgba(255, 255, 255, 0.5); 
     width: 1500px;
-    height: 4000px;
+    height: 10260px;
     margin: 0 auto; 
 
 }
@@ -118,4 +118,6 @@ nav button {
 
 #sumario {
     width: 420px;
+    height: 10260px;
 }
+
