@@ -20,7 +20,7 @@ body {
 #principal {
     background-color: rgba(255, 255, 255, 0.5); 
     width: 1500px;
-    height: 10260px;
+    height: 10270px;
     margin: 0 auto; 
 
 }
@@ -59,7 +59,7 @@ body {
 }
 
 nav a { 
-    margin: 130px;
+    margin: 27px;
 }
 
 nav button {
@@ -68,11 +68,15 @@ nav button {
     font-size: 20px;
 }
 
+#primeiro-a {
+    margin-left: 0;
+}
+
 #main-conteudo { 
     display: flex;
     flex-direction: row;
     width: 1500px;
-    height: 4999px;
+    height: 9800px;
     padding: 30px;
 }
 
@@ -119,5 +123,52 @@ nav button {
 #sumario {
     width: 420px;
     height: 10260px;
+}
+
+#sumario hr {
+    width: 100%; 
+    height: 1px;
+    background-color: antiquewhite; 
+    border: none;
+    margin: 30px 0; 
+}
+
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+#redes img {
+    height: 50px;
+    width: 50px;
+}
+
+#redes h1 {
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-size: 30px;
+}
+
+#followers {
+    width: 100%; 
+    text-align: left; 
+    margin-bottom: 10px; 
+    font-size: 30px;
+}
+
+#followers img {
+    height: 70px;
+    width: 70px;
+}
+
+#followers h1 {
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-size: 50px; 
 }
 
