@@ -12,8 +12,25 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 30px;
+    min-height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1,h2,h3{
+    font-family: "Dancing Script", cursive;
+
+}
+
+a{
+color:#ba9657;
+text-decoration:none;
+transition:.2s;
+}
+
+a:hover{
+color:white;
+text-decoration:underline;
 }
 
 
@@ -22,6 +39,7 @@ body {
     width: 1500px;
     height: 10270px;
     margin: 0 auto; 
+    flex: 1;
 
 }
 
@@ -59,13 +77,20 @@ body {
 }
 
 nav a { 
-    margin: 27px;
+    margin: 30px;
 }
 
-nav button {
+
+#detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+#detalhes button {
     border-radius: 10px;
     height: 40px;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 #primeiro-a {
@@ -92,6 +117,16 @@ nav button {
     border-radius: 8px;
     display: block;  
     margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,.150);
+    transition:.3s;
+
+}
+
+
+
+.artigo img:hover{
+
+transform:scale(1.03);
 
 }
 .artigo h2 {
@@ -122,7 +157,7 @@ nav button {
 
 #sumario {
     width: 420px;
-    height: 10260px;
+    height: 10100px;
 }
 
 #sumario hr {
@@ -144,6 +179,13 @@ nav button {
 #redes img {
     height: 50px;
     width: 50px;
+    transition: .3s;
+}
+
+#redes img:hover{
+
+transform:scale(1.03);
+
 }
 
 #redes h1 {
@@ -163,6 +205,14 @@ nav button {
 #followers img {
     height: 70px;
     width: 70px;
+    transition: .3s;
+}
+
+
+#followers img:hover{
+
+transform:scale(1.03);
+
 }
 
 #followers h1 {
@@ -171,4 +221,23 @@ nav button {
     margin-bottom: 10px; 
     font-size: 50px; 
 }
+
+footer {
+    background-color: #2C5F34;
+    background: linear-gradient(to bottom,  #2C5F34, #479553);
+    margin: 0;
+    margin: 0;
+    padding: 20px;
+    color: antiquewhite;
+    /*-------*/
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 1460px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
 

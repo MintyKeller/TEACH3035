@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talita's Blog</title>
     <link rel="stylesheet" href="../blog.css">
+      <!--FONTES GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--AUDIO E VIDEO DE FUNDO-->
@@ -17,8 +22,7 @@
     </video>
     
     <!--LINK DO SITE DE INSPIRAÇÃO: https://bobbyd0702.blogspot.com/2025/04/trivia-night-museum-tour-and-soccer.html-->
-    
-    <div id="principal">
+    <div id="principal" style="height: 1000px;"> <!--css inline-->
         <div id="inner-header">
             <div>
                 <h1>Talita S. Keller</h1>
@@ -29,15 +33,18 @@
                     <a href="../blog.html" id="primeiro-a">Home</a>
                     <a href="aba1.html">About Me</a>
                     <a href="aba2.html">Also About Me</a>
-                    <button onclick="document.getElementById('musicaFundo').play()">
-                        Ligar Música de Fundo 🎵
-                    </button>
+
                 </nav>
             </div>
             
+                 <div id="detalhes">
             <img src="../fotos/me-again.jpg" alt=""> 
+                     <button onclick="document.getElementById('musicaFundo').play()">
+                        Ligar Música de Fundo 🎵
+                    </button>
+            </div>
         </div>
-          <div id="main-conteudo">
+          <div id="main-conteudo" style="height: 1000px;"> <!--css inline-->
             <div id="conteudo">
                 <div class="artigo">
                     <h2 class="data">12/34/5678</h2>
@@ -48,6 +55,10 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <h4> Talita S.Keller &copy;</h4>
+    </footer>
 
 </body>
 
