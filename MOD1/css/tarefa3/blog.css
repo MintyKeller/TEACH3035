@@ -37,7 +37,7 @@ text-decoration:underline;
 #principal {
     background-color: rgba(255, 255, 255, 0.5); 
     width: 1500px;
-    height: 10270px;
+    /*height: 10270px;*/
     margin: 0 auto; 
     flex: 1;
 
@@ -76,9 +76,13 @@ text-decoration:underline;
     flex-direction: column;
 }
 
-nav a { 
-    margin: 30px;
+nav { 
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
 }
+
+
 
 
 #detalhes {
@@ -98,27 +102,38 @@ nav a {
 }
 
 #main-conteudo { 
-    display: flex;
-    flex-direction: row;
-    width: 1500px;
-    height: 9800px;
+  /*  display: flex;
+    flex-direction: row;*/
+   /* width: 1500px;*/
+    display: grid;
+    grid-template-columns: 2fr auto 1fr;
+    gap: 30px;
+    /*height: 9800px;*/
     padding: 30px;
 }
 
 .artigo {
-    width: 970px;
-    height: 910px;
+    /*width: 970px;*/
+    width:100%;
+    height: auto;
     padding: 10px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
 }
 
 .artigo img {
-    width: 700px;
-    height: 540px;
+   /* width: 700px;
+    height: 540px;*/
     border-radius: 8px;
     display: block;  
     margin: 0 auto;
     box-shadow: 0 10px 30px rgba(0,0,0,.150);
     transition:.3s;
+
+    width:100%;
+    max-width:700px;
+    height:auto;
 
 }
 
@@ -152,13 +167,19 @@ transform:scale(1.03);
 }
 
 #conteudo {
-    width: 1000px;
+    /*width: 1000px;*/
+        width:100%;
+    display:grid; /*tentando aplicar o grid*/
+    grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
+    gap:30px;
 }
 
+/*
 #sumario {
-    width: 420px;
-    height: 10100px;
+   width: 420px;
+  height: 10100px;
 }
+*/
 
 #sumario hr {
     width: 100%; 
