@@ -1,21 +1,11 @@
-<!--Crie um layout responsivo para uma página de blog. 
-Use Flexbox para organizar os itens individuais em cada postagem (como título, autor e conteúdo)
-, e utilize Grid para criar uma grade de postagens na página inicial. 
-O link do GitHub deve ser postado nos comentários
-
--->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talita's Blog</title>
-    <link rel="stylesheet" href="blog.css">
-
-    <!--FONTES GOOGLE-->
+    <link rel="stylesheet" href="posts.css">
+      <!--FONTES GOOGLE-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -24,16 +14,16 @@ O link do GitHub deve ser postado nos comentários
 <body>
     <!--AUDIO E VIDEO DE FUNDO-->
     <audio id="musicaFundo" loop>
-        <source src="fotos/market-theme.mp3" type="audio/mpeg">
+        <source src="../fotos/market-theme.mp3" type="audio/mpeg">
     </audio>
     
     <video id="video-fundo" autoplay loop muted playsinline>
-        <source src="fotos/fundo-video.mp4" type="video/mp4"> 
+        <source src="../fotos/fundo-video.mp4" type="video/mp4"> 
     </video>
     
     <!--LINK DO SITE DE INSPIRAÇÃO: https://bobbyd0702.blogspot.com/2025/04/trivia-night-museum-tour-and-soccer.html-->
     
-    <div id="principal">
+    <div id="principal" style="height: 1000px;"> <!--css inline-->
         <div id="inner-header">
             <div>
                 <h1>Talita S. Keller</h1>
@@ -41,133 +31,109 @@ O link do GitHub deve ser postado nos comentários
                 
             
                 <nav>
-                    <a href="abas/aba1.html" id="primeiro-a">About me</a>
-                    <a href="abas/aba2.html">Also about me</a>
-                    <a href="abas/aba3.html">Am I narcissist?&#40read to know more&#41</a>
-                    <a href="abas/posts.html">All Posts!</a>
+                    <a href="../blog.html" id="primeiro-a">Home</a>
+                    <a href="aba2.html">Also About Me</a>
+                    <a href="aba3.html">Am I narcissist?&#40read to know more&#41</a>
+                     <a href="posts.html">All Posts!</a>
                 </nav>
             </div>
             
             <div id="detalhes">
-            <img src="fotos/me-again.jpg" alt=""> 
+            <img src="../fotos/me-again.jpg" alt=""> 
                      <button onclick="document.getElementById('musicaFundo').play()">
                         Ligar Música de Fundo 🎵
                     </button>
             </div>
         </div>
-
-        <div id="main-conteudo">
-            <div id="conteudo">
-                <div class="artigo" id="post-1">
+          <div id="main-conteudo"> 
+               <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/family.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/family.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-1" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-2">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/vovis-2.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/vovis-2.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-2" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-3">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/carol.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/carol.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-3" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-4">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/school.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/school.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-4" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-5">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/melo-romantic.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/melo-romantic.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-5" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-6">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/best-of-all-guys.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/best-of-all-guys.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-6" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-7">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/vic-isa.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/vic-isa.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-7" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-8">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/victor.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/victor.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-8" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-               <div class="artigo" id="post-9">
+               <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/amanda.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/amanda.jpeg" alt="foto familia" class="img-princ">
+                      <a href="../blog.html#post-9" class="btn-postagem">Ver postagem Home</a>
                 </div>
 
-                <div class="artigo" id="post-10">
+                <div class="post">
                     <h2 class="data">12/34/5678</h2>
                     <h1 class="titulo">Hello!</h1>
                     <p class="paragrafo-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam repellendus excepturi sint labore consequatur necessitatibus consequuntur fugit in ipsum nesciunt doloribus quasi hic, voluptate magni deserunt, doloremque id iusto et.</p>
-                    <img src="fotos/minnie.jpeg" alt="foto familia" class="img-princ">
-                    <img src="fotos/frani.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/minnie.jpeg" alt="foto familia" class="img-princ">
+                    <img src="../fotos/frani.jpeg" alt="foto familia" class="img-princ">
+                    <a href="../blog.html#post-10" class="btn-postagem">Ver postagem Home</a>
                 </div>
-
-                
-
-                
-            </div>
-
-        <hr>
-
-        <div id="sumario">
-
-            <div id="redes">
-                 <h1>Me encontre em outras redes!</h1>
-                <a href="https://www.instagram.com/override_t_s_keller/" target="_blank"><img src="fotos/instagram (1).png" alt="favicon instagram"></a>
-                <a href="https://www.linkedin.com/in/talita-de-souza-keller-661256362/" target="_blank"><img src="fotos/linkedin.png" alt="favicon linkedin"></a>
-                <a href="https://github.com/MintyKeller" target="_blank" ><img src="fotos/github (1).png" alt="favicon github"></a> 
-                <a href="https://open.spotify.com/user/j7r1kkbudl1npcw0lizgfl6au" target="_blank"><img src="fotos/spotify.png" alt="favicon spotify"></a>               
-            </div>
-            <hr>
-            <div id="followers">
-                <h1>Seguidores: </h1>
-                <img src="fotos/seguidores/1.png" alt="seguidor" title="Pink Floyd Original">
-                <img src="fotos/seguidores/2.jpg" alt="seguidor" title="Pear Butter: best of ponies">
-                <img src="fotos/seguidores/3.jpg" alt="seguidor" title="OoT">
-                <img src="fotos/seguidores/4.png" alt="seguidor" title="Okarun">
-                <img src="fotos/seguidores/5.png" alt="seguidor" title="Shinji Ikari">
-                <img src="fotos/seguidores/6.png" alt="seguidor" title="Angry Asuka">
-                <img src="fotos/seguidores/7.png" alt="seguidor" title="Dark Emo Link">
-                <img src="fotos/seguidores/8.png" alt="seguidor" title="Azumanga cute prodigy girl">
-                <img src="fotos/seguidores/9.png" alt="seguidor" title="horsi">
-                <img src="fotos/seguidores/10.png" alt="seguidor" title="duqui">
-                <img src="fotos/seguidores/11.png" alt="seguidor" title="malon diva">
-            </div>
-
+    
         </div>
-    </div>
-
-    </div>
 
     <footer>
-        <h4> Talita S.Keller &copy;</h4>
+        <h4> Talita S.Keller &copy;</h4> 
+        <p>ESQUCI DE APLICAR ALGUNS REQUISITOS NOS OUTROS E BOTEI TUDO AQUI!!</p>
     </footer>
+
 </body>
+
 </html>
