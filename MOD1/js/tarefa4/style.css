@@ -1,0 +1,24 @@
+div {
+    align-self: center;
+    height: 500px;
+    width: 600px;
+    background-color: darkmagenta;
+    padding: 50px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+div h1 { 
+    margin: auto;
+    font-size:  70px;
+}
+
+button { 
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin:auto;
+    margin-top: 20px;
+
+
+}
