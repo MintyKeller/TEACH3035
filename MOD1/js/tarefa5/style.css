@@ -1,0 +1,116 @@
+* { /*removendo coisas padrões*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background-color: black;
+    display: flex;
+    /*alinhando as coisas no centris*/
+    justify-content: center;
+    align-items: center;
+    /*medidas relativaaas, yay*/
+    min-height: 100vh;
+    padding: 1rem;
+}
+#calculadora { 
+  background-color: rgba(255, 255, 255, 0.3); 
+  margin: auto;
+  padding: auto;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 20rem;
+  width: 100%;
+
+}
+
+#visor {
+    background-color: aliceblue;
+    font-size: 2rem; /*letra grandinha*/
+    font-weight: bold;
+    padding: 1.5rem;
+    text-align: right; 
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.botoes {
+    display: grid;  /*USANDO OO GRID*/
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+    /*
+    eu tinha tentado usar um monte de div e aplicar um flex directicon row e collumn nelas...
+    mas ficou muito bizarro kkk
+    */
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none; /*tira a bordinha do botão*/
+    border-radius: 0.5rem;
+    cursor: pointer; /*muda o cursosr*/
+    transition: all 0.2s; /*transição pro hoover dps*/
+    background-color: #555;
+    color: white;
+}
+
+button:hover {
+    background-color: #666; /*fica mais clarinhoor*/
+    transform: scale(1.05); /*aumenta  5% de tamanho.*/
+}
+
+button:active {
+    transform: scale(0.95); /*uouuu, uma legal reação ao click*/
+}
+
+
+.operador {
+    background-color: #ff9500; /*operadores são laranjinhas*/
+    color: white;
+}
+
+.operador:hover {
+    background-color: #ffb143; /*mais clarinhor*/
+}
+
+
+.igual {
+    background-color: #00c851; /*o igual eh diefrentãpo*/
+    color: white;
+}
+
+.igual:hover {
+    background-color: #00d965;
+}
+
+/* RESPONSIVIDADE, feito com ia rsrssrr*/
+@media (max-width: 480px) {
+    .calculadora {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    .visor {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .botoes {
+        gap: 0.5rem;
+    }
+    
+    button {
+        padding: 0.875rem;
+        font-size: 1.1rem;
+    }
+}
