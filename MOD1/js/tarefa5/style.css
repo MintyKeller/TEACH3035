@@ -50,6 +50,7 @@ body {
     eu tinha tentado usar um monte de div e aplicar um flex directicon row e collumn nelas...
     mas ficou muito bizarro kkk
     */
+     margin-bottom: 1rem; 
 }
 
 button {
@@ -71,6 +72,11 @@ button:hover {
 
 button:active {
     transform: scale(0.95); /*uouuu, uma legal reação ao click*/
+}
+
+#reload {
+    margin-top: auto;
+    display: block;
 }
 
 
