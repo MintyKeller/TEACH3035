@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/dog.png" type="image/x-icon">
+
+
+      <!--FONTES GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="ladinho">
+        <h1>Ginger's</h1> 
+        <img src="img/catolinho.png" alt="">
+        </div>
+        <nav>
+            <a href="aba2.html">Clientes</a>
+            <a href="aba3.html">Lojinha</a>
+        </nav>
+        </header>
+
+        <div id="conteudo">
+            <div id="banner">
+                <div id="texto">
+                    <h1>Seja bem-vindo,</h1>
+                    <h2>Somos a petshop Ginger's</h2>
+                    <p>Na Ginger's, cada pet é recebido como parte da nossa família. Nosso compromisso é oferecer um ambiente acolhedor, produtos de qualidade e um atendimento feito com dedicação, para que cada visita seja uma experiência cheia de conforto, alegria e amor. Porque sabemos que cuidar do seu melhor amigo é cuidar de um pedacinho da sua vida.</p>
+                </div>
+            </div>
+
+
+
+
+            <div id="form">
+
+                <!--Tutor: nome, telefone, endereço, data do atendiment-->
+                <!-- Animal: nome, idade, porte-->
+
+                <form>
+
+                <h2>Dados do Tutor</h2>
+
+                    <label for="nomeTutor">Nome:</label>
+                    <input type="text" id="nomeTutor" name="nomeTutor">
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco">
+
+                    <label for="data">Data do Atendimento:</label>
+                    <input type="date" id="data" name="data">
+
+                    <h2>Dados do Animal</h2>
+
+                    <label for="nomeAnimal">Nome:</label>
+                    <input type="text" id="nomeAnimal" name="nomeAnimal">
+
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="0">
+
+                    <label for="porte">Porte:</label>
+                    <select id="porte" name="porte">
+                        <option>Pequeno</option>
+                        <option>Médio</option>
+                        <option>Grande</option>
+                    </select>
+
+                 <br><br>
+
+         <input type="submit" value="Cadastrar">
+
+        </form>
+
+
+            </div>
+        </div>
+
+        <footer>
+            <h1>Ginger's &copy; </h1>
+            <hr>
+
+            <div id="contato">
+            <h2>Contato</h2>
+            <p>Telefone: 12 3456-78910</p>
+            <p>Email: petshop@email.random</p>
+            <p>Endereço: Qualquer lugar, n tão perto, CEP: 1234-567</p>
+            </div>
+        </footer>
+
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
