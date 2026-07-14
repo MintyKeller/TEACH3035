@@ -88,8 +88,8 @@ while (escolha !=5){
             console.log("Data de criação: " + tarefas[i].data); 
             console.log("Status: Não concluída")
         }
-        console.log("Se nada foi printado, parabéns, vc deu conta de suas tarefas hahah")
     }
+     console.log("Se nada foi printado, parabéns, vc deu conta de suas tarefas hahah")
     console.log("-----------------------------------------------")
     break;
   case 4:
