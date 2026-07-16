@@ -27,6 +27,10 @@
         </nav>
         </header>
 
+
+
+
+
         <div id="conteudo">
             <div id="banner">
                 <div id="texto">
@@ -37,53 +41,73 @@
             </div>
 
 
-
-
-            <div id="form">
+            <div id="container">
+                <h1>Faça seu cadastro aqui!</h1>
+                <form id="forms">
 
                 <!--Tutor: nome, telefone, endereço, data do atendiment-->
                 <!-- Animal: nome, idade, porte-->
 
-                <form>
+                <div class="form1">
 
                 <h2>Dados do Tutor</h2>
 
                     <label for="nomeTutor">Nome:</label>
-                    <input type="text" id="nomeTutor" name="nomeTutor">
+                    <input type="text" id="nomeTutor" name="nomeTutor" >
 
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone">
+                    <input type="tel" id="telefone" name="telefone" >
 
                     <label for="endereco">Endereço:</label>
-                    <input type="text" id="endereco" name="endereco">
+                    <input type="text" id="endereco" name="endereco" >
 
                     <label for="data">Data do Atendimento:</label>
-                    <input type="date" id="data" name="data">
+                    <input type="date" id="data" name="data" >
 
+                </div>
+            
+                <div class="form1">
                     <h2>Dados do Animal</h2>
 
                     <label for="nomeAnimal">Nome:</label>
-                    <input type="text" id="nomeAnimal" name="nomeAnimal">
+                    <input type="text" id="nomeAnimal" name="nomeAnimal" >
+
+                    <label for="nomeAnimal">Especie:</label>
+                    <select id="especie" name="especie" >
+                        <option>Cachorro</option>
+                        <option>Gato</option>
+                        <option>Pássaro</option>
+                        <option>Roedor</option>
+                        <option>Coelho</option>
+                        <option>Réptil</option>
+                        <option>Peixe</option>
+                        <option>Outro</option>
+                    </select>
+
 
                     <label for="idade">Idade:</label>
-                    <input type="number" id="idade" name="idade" min="0">
+                    <input type="number" id="idade" name="idade" min="0" >
 
                     <label for="porte">Porte:</label>
-                    <select id="porte" name="porte">
+                    <select id="porte" name="porte" >
                         <option>Pequeno</option>
                         <option>Médio</option>
                         <option>Grande</option>
                     </select>
 
                  <br><br>
+                    </div>
+              
 
-         <input type="submit" value="Cadastrar">
-
-        </form>
-
-
+            </form>
+            <button  id="botao-enviar">🐾 Cadastrar</button>
             </div>
+           
+            
+
+
         </div>
+
 
         <footer>
             <h1>Ginger's &copy; </h1>
@@ -103,6 +127,19 @@
 
     
 
-    <script src="script.js"></script>
+    <script src="script1.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
