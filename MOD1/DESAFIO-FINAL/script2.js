@@ -66,23 +66,23 @@ const relatos = [
     {
         nome: "Billie",
         dono: "Victor",
-        imagem: "pets/billie-victor.jpeg",
-        relato: "blablablablablablalallalala",
+        imagem: "pets/billie-victor.png",
+        relato: "Aqui foram queridos comigo e me trataram com muito carinho, apesar da minha timidez...",
    
     },
     {
         nome: "Cindy",
         dono: "Escobar",
         imagem: "pets/cindy-escobar.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "Deixaram o meu dono ficar comigo o tempo todo durante o meu banho, é que ele é muito apegado a mim... Acredito que ele ficou feliz com isso (e eu também)",
    
     },
 
     {
-        nome: "Dondoca",
+        nome: "Candoca",
         dono: "Cleria",
-        imagem: "pets/dondoca-carol.jpeg",
-        relato: "blablablablablablalallalala",
+        imagem: "pets/candoca-carol.jpeg",
+        relato: "Cuidaram tão bem dos meus cabelinhos! Me senti muito confortável aqui,  meu rabinho não parava de balançar...",
    
     },
 
@@ -90,7 +90,7 @@ const relatos = [
         nome: "Estrelinha",
         dono: "Carol",
         imagem: "pets/estrelinha-carol.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "Me deram vários petiscos. Eu ADORO petiscos. Me senti como uma verdadeira estrela.",
    
     },
 
@@ -98,23 +98,23 @@ const relatos = [
         nome: "Frani",
         dono: "Talita",
         imagem: "pets/franizinha-talita.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "Fizeram carinho na minha barriga e eu fiquei feliz quando me deram algo para comer.",
    
     },
 
     {
-        nome: "Gata Carol",
+        nome: "Pudim",
         dono: "Carol",
-        imagem: "pets/gata-mae-carol.jpeg",
-        relato: "blablablablablablalallalala",
+        imagem: "pets/pudim-cleria.jpeg",
+        relato: "Cuidaram muito bem das minhas filhotes, as Maria's. Pelo relato delas, senti que elas nem brigaram aqui na PetShop, Ginger's",
    
     },
 
     {
         nome: "Nora e Mimosa",
         dono: "Carol e Cleria",
-        imagem: "pets/irmas-carol.jpeg",
-        relato: "blablablablablablalallalala",
+        imagem: "pets/irmas-carol.png",
+        relato: "Mamãe voltou com uma ração muito gostosa da Ginger's. Nós amamos!",
    
     },
 
@@ -122,7 +122,7 @@ const relatos = [
         nome: "As gêmeas Maria's",
         dono: "Carol e Cleria",
         imagem: "pets/gemeas-marias-carol.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "Depois do banho, levamos alguns brinquedos pra casa e nós achamos eles muito divertidos!",
    
     },
 
@@ -130,7 +130,7 @@ const relatos = [
         nome: "Gori",
         dono: "Lorenzo",
         imagem: "pets/gori-lore.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "No início eu fiquei um pouco assustado, admito. Mas depois, o carinho dessa PetShop fez com que eu me sentisse mais confortável!",
    
     },
 
@@ -138,7 +138,7 @@ const relatos = [
         nome: "Listrado",
         dono: "Amanda",
         imagem: "pets/listrado-amanda.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "Tem sempre música boa tocando na Ginger's, me lembra as músicas que a minha dona ouve! Gostei.",
    
     },
 
@@ -146,52 +146,81 @@ const relatos = [
         nome: "Lua",
         dono: "Escobar",
         imagem: "pets/lua-escobar.jpeg",
-        relato: "blablablablablablalallalala",
+        relato: "Meu dono comprou uma caminha tão macia, Cindy e eu sempre a disputamos... Mas meu dono comprou mais uma, agora!",
    
     },
 
     {
         nome: "Mia",
         dono: "Isa",
-        imagem: "pets/billie-victor.jpeg",
-        relato: "blablablablablablalallalala",
+        imagem: "pets/mia-gataGorda-isa.jpeg",
+        relato: "Eu simplesmente AMEI os petiscos e as rações daí!!",
    
     },
 
     {
-        nome: "Billie",
-        dono: "Victor",
-        imagem: "pets/billie-victor.jpeg",
-        relato: "blablablablablablalallalala",
+        nome: "Minnie",
+        dono: "Talita",
+        imagem: "pets/minnie-talita.jpeg",
+        relato: "De início eu não queria ir, mas minha dona implorou tanto dizendo que eu ia gostar... Até que ela estava certa.",
    
     },
 
     {
-        nome: "Billie",
-        dono: "Victor",
-        imagem: "pets/billie-victor.jpeg",
-        relato: "blablablablablablalallalala",
+        nome: "Peludo",
+        dono: "Gui",
+        imagem: "pets/peludo-gui.jpeg",
+        relato: "Me trataram com muito carinho e tem uma ótima recepção. Me trataram com a devida atenção que eu mereço.",
    
     },
 
     {
-        nome: "Billie",
-        dono: "Victor",
-        imagem: "pets/billie-victor.jpeg",
-        relato: "blablablablablablalallalala",
+        nome: "Pipoca",
+        dono: "Ana",
+        imagem: "pets/pipoca-ana.jpeg",
+        relato: "Fizeram um penteado tão legal em mim! Minha dona amou! Até o momento que eu me enrolei na lama de novo... E me levaram de novo na Ginger's para banho, o que foi lucro!",
    
     },
 
     {
-        nome: "Billie",
-        dono: "Victor",
-        imagem: "pets/billie-victor.jpeg",
-        relato: "blablablablablablalallalala",
+        nome: "Luna",
+        dono: "Maurício",
+        imagem: "pets/luninha-mau.jpeg",
+        relato: "Meu dono me deu uns brinquedos tão legais daí!! Eu brinquei até cansar! E adorei a bandanazinha que escolheram pra mim também!",
    
-    }
+    },
+        {
+        nome: "Floquinha",
+        dono: "Maurício",
+        imagem: "pets/floquinha-mau.jpeg",
+        relato: "Finalmente um lugar que encontrou o shampoo certo para o meu tipo de pelo!",
+   
+    },
 
 
 
  
 
 ];
+
+//pegando a div q  a gnt vai preencher
+const Listarelatos = document.getElementById("relatos"); 
+
+relatos.forEach(function(relato){
+    //criando a div item
+    const card = document.createElement("div");
+    //dando a classe pra div 
+    card.classList.add("relato");
+
+    //a gnt ja fez isso na escola
+ card.innerHTML = `
+    <img src="${relato.imagem}">
+
+    <div class="texto-relato">
+        <h2>${relato.nome}</h2>
+        <h3>Tutor: ${relato.dono}</h3>
+        <p>${relato.relato}</p>
+    </div>
+`;
+    Listarelatos.appendChild(card); //coloca dentro da div vazia
+});
