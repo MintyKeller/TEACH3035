@@ -279,24 +279,7 @@ label {
 
 input,
 select{
-    width: 100%;#titulo-relatos {
-    background-color: #6b4f3f;
-    color: #f5e6d3;
-
-    text-align: center;
-
-    padding: 4rem 2rem 2rem;
-}
-
-#titulo-relatos h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
-}
-
-#titulo-relatos p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
-}
+    width: 100%;
     padding: 0.7rem;
     border: 2px solid #d9d9d9;
     border-radius: 10px;
@@ -465,9 +448,7 @@ select:focus{
 #titulo-relatos {
     background-color: #6b4f3f;
     color: #f5e6d3;
-
     text-align: center;
-
     padding: 4rem 2rem 2rem;
 }
 
@@ -584,21 +565,8 @@ select:focus{
         align-items: center; /* Centraliza os textos de contato no celular */
         text-align: center;
     }
-   #relatos {
-        padding: 2rem 1rem;
-    }
 
-    .relato {
-        width: 90%;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .relato img {
-        width: 240px;
-        height: 240px;
-    }
-   #relatos {
+    #relatos {
         padding: 2rem 1rem;
     }
 
@@ -614,15 +582,3 @@ select:focus{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

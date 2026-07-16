@@ -65,6 +65,12 @@ document.getElementById("botao-enviar").addEventListener("click", function (even
     cliente.telefone
     cliente.nomeAnimal
     */
+
+    if (!nomeTutor || !telefone || !endereco || !data || !nomeAnimal) {
+    alert("Por favor, preencha todos os campos!");
+    return;
+    }
+
    alert("Cadastrado com sucesso ;)");
     formulario.reset();
    
