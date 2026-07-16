@@ -52,6 +52,12 @@ document.getElementById("botao-enviar").addEventListener("click", function (even
    if (clientes === null) {
     clientes = []; //se for o primeiro cliente a ser cadastrado
    }
+
+
+    if (!nomeTutor || !telefone || !endereco || !data || !nomeAnimal) {
+    alert("Por favor, preencha todos os campos!");
+    return; 
+    }
    //adicionando o novo cliente na lista 
    clientes.push(cliente);
   
@@ -66,10 +72,6 @@ document.getElementById("botao-enviar").addEventListener("click", function (even
     cliente.nomeAnimal
     */
 
-    if (!nomeTutor || !telefone || !endereco || !data || !nomeAnimal) {
-    alert("Por favor, preencha todos os campos!");
-    return;
-    }
 
    alert("Cadastrado com sucesso ;)");
     formulario.reset();
