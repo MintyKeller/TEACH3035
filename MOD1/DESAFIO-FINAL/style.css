@@ -40,14 +40,9 @@ header h1{
 
 #ladinho {
     display: flex;
-    flex-direction: row;
-   
+    flex-direction: row;  
     align-items: center; 
-    
-  
    /* gap: rem; */
-    
-   
     padding: 2rem;
 }
 
