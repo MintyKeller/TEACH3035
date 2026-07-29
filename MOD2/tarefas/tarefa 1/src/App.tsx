@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './App.css'
 
-import './App.css';
 
 function App() {
+  const[count, setCount] = useState(1); 
+
+  function incrementar(){
+    setCount(count + 1);
+  };
+
+
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+   
+
+    <p>Contador {count}</p>
+    <button onClick={incrementar}>Adcionar</button>
+
     </div>
   );
 }
