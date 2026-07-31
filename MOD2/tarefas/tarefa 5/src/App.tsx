@@ -1,13 +1,14 @@
-import React from 'react';
 
+import { ThemeProvider } from './contexts/ThemeContext';
+import { Page } from './components/Page';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
+    <ThemeProvider> {/*Trazendo o provider do use context, que tem q envolver tudo*/}
+      <Page /> {/*nosso componente principal*/}
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
